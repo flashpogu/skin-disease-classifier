@@ -69,6 +69,16 @@ Powered by:
 
 ## 📁 Project Structure
 
+📦 skin-disease-classifier
+┣ 📂 models/ (ResNet model files)
+┣ 📂 HAM10000_images/ (image dataset & checkpoints)
+┣ 📂 classifier-frontend/ (Next.js UI)
+┣ 📜 train.py (3-phase fine-tuning)
+┣ 📜 main.py (API + Grad-CAM + PDF endpoints)
+┣ 📜 dataset.py (data loader with augmentation)
+┣ 📜 gradcam.py (heatmap generation)
+┣ 📜 requirements.txt
+
 
 ---
 
