@@ -1,0 +1,3 @@
+curl -X POST "https://zeddx-rahul--skin-disease-classifier-skinclassifier-inference.modal.run" ^
+  -H "Content-Type: application/json" ^
+  --data @payload.json
