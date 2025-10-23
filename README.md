@@ -26,6 +26,22 @@ Powered by:
 
 ---
 
+## 📊 Model Performance
+
+The model was trained & validated on the **HAM10000 dataset** using a **3-phase fine-tuning strategy**:
+
+| Metric | Score |
+|--------|:----:|
+| ✅ ROC-AUC (multi-class) | **0.97+** |
+| ✅ Accuracy | **87%** |
+| Macro Precision | 0.66 |
+| Macro Recall | 0.81 |
+| Macro F1-Score | 0.71 |
+
+📌 **Higher recall** for high-risk disease (Melanoma) → reduces false negatives, important in clinical application.
+
+---
+
 ## 🧬 Supported Skin Disease Classes (HAM10000)
 
 | Code | Full Medical Name | Severity |
